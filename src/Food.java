@@ -1,4 +1,4 @@
-public class Food {
+public class Food implements Product {
     String foodName;
     int price;
     int quantity =1;
@@ -17,7 +17,7 @@ public class Food {
     }
 
     public int getPrice() {
-        return price;
+        return price * quantity;
     }
 
     public String getFoodName() {
