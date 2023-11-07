@@ -5,8 +5,6 @@ public class OnSiteOrderService implements OrderService {
     public void orderRegister(String customerName) {
         System.out.println("online order registered for " + customerName);
     }
-
-
     @Override
     public void orderPayment(int foodPrice) {
         System.out.println("on-Site Payment with Price : " + foodPrice + " Tomans!");
