@@ -330,6 +330,9 @@ OrderService
 </tbody>
 </table>
 
+# گام ۳
+اصلاحات در پوشه solidified اعمال شده است.
+
 # گام ۴
 
 ## ۱
